@@ -1,0 +1,32 @@
+DALL-E Prompt: Style: Comic,
+Subject Wearing Clothes: A grinning robot in a brown leather vest and blue jeans,
+Mood: Excited,
+Event: Celebrating Ethereum's Shapella hard fork,
+Location: An underground crypto-mining facility,
+Quality: Vibrant and colorful,
+Camera Angle: Low angle shot looking up at the robot,
+Background: Steam rising from the machines and electrical sparks flying around in the background.
+
+The subject of this cartoon is Ethereum's Shapella hard fork executed on mainnet. The event takes place in a futuristic cityscape on a distant planet. The mood is a mixture of anticipation and excitement; the citizens of the planet are eagerly awaiting the successful hard fork. High quality, vintage Disney cartoon style, with bright, vivid colours and smooth animation. The camera angle is an aerial view, showing the cityscape and the citizens in the foreground. Bitcoin man, our mascot with thin black legs and arms wearing white shoes and gloves, is featured in the centre of the scene, dancing happily with a sign bearing the words 'Successful Hard Fork' in his hands.
+
+80s Disney cartoon style, futuristic space, our mascot has thin black legs and arms and a gold bitcoin symbol for his body, wearing white sneakers and gloves, standing at the center of the scene, surrounded by Ethereum miners, hard at work on the Shapella hard fork, camera angle is a long shot, miners eyes are glued to their computers, as hard fork is executed a blue and green glow radiates from the computers, high quality, distant asteroid-filled sky, stars twinkle
+
+prompt=(
+    f"Create a prompt based on the following news article headline: '{headline}'. "
+    f"Please provide a description with 82 words maximum, including the following aspects: "
+    f"subject, mood, event, location, quality, camera angle, etc. "
+    f"Use commas to separate the elements in the description."
+    f"Style description should always be 'vintage Disney cartoon style'."
+    f"Our mascot is a Bitcoin man who has thin black legs and arms. He wears white shoes and gloves."
+    f"Bitcoin man should feature in most of the cartoons."
+    f"Location should always have a futuristic space theme."
+    f"Describe objects based on any nouns you find in the headline."
+),
+
+
+Subject: A shapely Ethereum robot,
+Mood: determined and futuristic,
+Event: executing a hard fork on the mainnet,
+Location: a sprawling, metallic-glowing space station,
+Quality: vibrant, electric energy,
+Camera Angle: low-angle, with the robot in the foreground.
