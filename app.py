@@ -22,17 +22,20 @@ def generate_prompt(headline):
         engine="text-davinci-003",
          prompt=(
             f"Create a prompt based on the following news article headline: '{headline}'. "
-            f"Provide a description using 82 words maximum, including the following aspects: "
-            f"subject, mood, event, location, camera angle, etc. "
+            f"Provide detailed descriptions, including the following aspects: "
+            f"subject, event, location, camera angle, etc. "
+            f"150 words maximum."
             f"Use commas to separate the elements in the description. "
             f"No full stops or any other punctuation, only commas. "
             f"Location should always be a futuristic or space theme. "
-            f"Describe subjects and mood based on any verbs and nouns you find in the headline."
+            f"Include verbs and nouns found in the headline."
+            f"Always follow this template: Subject: [long description], Mood: [description], "
+            f"Event: [long description], Location: [long description], Camera Angle: [description]."
         ),
-        max_tokens=2000,
+        max_tokens=3200,
         n=1,
         stop=None,
-        temperature=0.9,
+        temperature=0.4,
     )
 
     return result.choices[0].text.strip()
