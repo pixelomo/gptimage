@@ -28,7 +28,7 @@ def generate_prompt(headline):
             f"Use commas to separate the elements in the description. "
             f"No full stops or any other punctuation, only commas. "
             f"Location should always be a futuristic or space theme. "
-            f"Include verbs and nouns found in the headline."
+            f"Include verbs, nouns, numbers and $ prices found in the headline."
             f"Always follow this template: Subject: [very long description], Mood: [description], "
             f"Event: [long description], Location: [long description], Camera Angle: [description]."
         ),
