@@ -23,7 +23,7 @@ def generate_prompt(headline):
          prompt=(
             f"Create a prompt based on the following news article headline: '{headline}'. "
             f"Provide a description using 82 words maximum, including the following aspects: "
-            f"subject, mood, event, location, quality, camera angle, etc. "
+            f"subject, mood, event, location, camera angle, etc. "
             f"Use commas to separate the elements in the description. "
             f"No full stops or any other punctuation, only commas. "
             f"Location should always be a futuristic or space theme. "
@@ -50,7 +50,12 @@ def generate_image_from_prompt(prompt):
         headers=headers,
         json={
             "model": "image-alpha-001",
-            "prompt": "flat cartoon style, colorful, high quality, crypto," + prompt,
+            # modern cartoon style
+            # nickelodeon
+            # adventure time
+            # rick and morty
+            # black outlines,
+            "prompt": "minimal cel shading cartoon style, colorful, crypto," + prompt + ", high quality",
             "num_images": 4,
             "size": "512x512",
             "response_format": "url",
