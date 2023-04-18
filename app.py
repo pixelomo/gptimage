@@ -50,7 +50,7 @@ def generate_image_from_prompt(prompt):
         headers=headers,
         json={
             "model": "image-alpha-001",
-            "prompt": "retro Disney cartoon style, colorful, high quality, crypto," + prompt,
+            "prompt": "flat cartoon style, colorful, high quality, crypto," + prompt,
             "num_images": 4,
             "size": "512x512",
             "response_format": "url",
